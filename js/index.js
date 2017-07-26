@@ -30,7 +30,7 @@ function quadrEquat() {
     b = parseFloat(document.getElementById('b').value);
     c = parseFloat(document.getElementById('c').value);
     if (isNaN(a) || isNaN(b) || isNaN(c)) {
-        document.getElementById('result').innerHTML = 'Введіть коректні дані коефіцієнтів!';
+        document.getElementById('result').innerHTML = 'Введіть коректні дані!';
     }
     else {
         discr();
